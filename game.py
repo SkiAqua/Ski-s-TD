@@ -1,13 +1,12 @@
 import pygame
+from towers import *
 
-class Tower:
-    def __init__(self, game):
-        self.max_hp = 0
-        self.hp = self.max_hp
-        self.range = 0
-        self.sell_value = 0
-        self.game = game
+class Game:
+    pass
 
-    def sell(self):
-        self.game.money += self.sell_value
-        del self
+
+
+
+
+pygame.init()
+
